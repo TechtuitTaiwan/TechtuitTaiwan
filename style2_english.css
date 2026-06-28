@@ -99,10 +99,12 @@ body {
 
 .hero-image {
   position: absolute;
-  right: -170px;
-  top: -35px;
-  width: 72%;
-  opacity: .5;
+  right: 0px;
+  top: 25px;
+  transform: none;
+  width:min(52vw, 680px);
+  max-width: 860px;
+  opacity:.42;
   z-index: 1;
   pointer-events: none;
 }
@@ -111,6 +113,7 @@ body {
   width: 100%;
   height: auto;
   display: block;
+  object-fit: contain;
 }
 
 /* ENGLISH TYPOGRAPHY */
@@ -352,10 +355,13 @@ footer {
   }
 
   .hero-image {
-    right: -160px;
-    top: 80px;
-    width: 68%;
-    opacity: .35;
+    right: -40px;
+    top: 230px;
+    transform: none;
+    transform: translateY(-50%);
+    width: min(58vw, 680px);
+    max-width: 680px;
+    opacity: .32;
   }
 }
 
@@ -395,6 +401,7 @@ footer {
     position: relative;
     right: auto;
     top: auto;
+    transform: none;
     width: 115%;
     margin-left: -8%;
     margin-top: 36px;

@@ -99,9 +99,11 @@ body {
 
 .hero-image {
   position: absolute;
-  right: -170px;
-  top: -35px;
-  width: 72%;
+  right: 0;
+  top: 180px;
+  transform: translateY(-50%);
+  width:  min(46vw, 720px);
+  max-width: 720px;
   opacity: .5;
   z-index: 1;
   pointer-events: none;
@@ -111,6 +113,7 @@ body {
   width: 100%;
   height: auto;
   display: block;
+  object-fit: contain;
 }
 
 .eyebrow,
@@ -349,9 +352,10 @@ footer {
   }
 
   .hero-image {
-    right: -160px;
-    top: 80px;
-    width: 68%;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width:min(48vw, 620px);
     opacity: .35;
   }
 }
@@ -446,6 +450,7 @@ footer {
     position: relative;
     right: auto;
     top: auto;
+    transform: none;
     width: 115%;
     margin-left: -8%;
     margin-top: 36px;
