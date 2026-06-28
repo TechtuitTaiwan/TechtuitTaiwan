@@ -353,11 +353,14 @@ footer {
   }
 
   .hero-image {
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width:min(48vw, 620px);
-    opacity: .35;
+     position: relative;
+  right: auto;
+  top: auto;
+  transform: none;
+  width: 115%;
+  margin-left: -8%;
+  margin-top: 36px;
+  opacity: .38;
   }
 }
 /* MOBILE */

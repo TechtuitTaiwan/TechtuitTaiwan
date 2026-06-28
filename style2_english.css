@@ -356,13 +356,14 @@ footer {
   }
 
   .hero-image {
-    right: -40px;
-    top: 230px;
-    transform: none;
-    transform: translateY(-50%);
-    width: min(58vw, 680px);
-    max-width: 680px;
-    opacity: .32;
+     position: relative;
+  right: auto;
+  top: auto;
+  transform: none;
+  width: 115%;
+  margin-left: -8%;
+  margin-top: 36px;
+  opacity: .38;
   }
 }
 
